@@ -58,20 +58,5 @@
             app:srcCompat="@drawable/android_trivia"
             tools:ignore="ContentDescription" />
 
-        <Button
-            android:id="@+id/botton_profile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="27dp"
-            android:paddingStart="@dimen/button_padding"
-            android:paddingEnd="@dimen/button_padding"
-            android:text="@string/Profile"
-            android:textColor="@color/colorAccent"
-            android:textSize="@dimen/button_text_size"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/playButton" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

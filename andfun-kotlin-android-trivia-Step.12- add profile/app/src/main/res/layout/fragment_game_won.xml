@@ -37,6 +37,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/youWinImage" />
 
@@ -54,6 +55,21 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/you_win" />
+
+        <Button
+            android:id="@+id/botton_profile"
+            android:layout_width="149dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="16dp"
+            android:paddingStart="@dimen/button_padding"
+            android:paddingEnd="@dimen/button_padding"
+            android:text="@string/Profile"
+            android:textColor="@color/youWinDark"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nextMatchButton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

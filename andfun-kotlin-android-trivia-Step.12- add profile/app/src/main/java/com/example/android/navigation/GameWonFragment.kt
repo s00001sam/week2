@@ -33,7 +33,7 @@ import androidx.navigation.findNavController
 import com.example.android.navigation.databinding.FragmentGameWonBinding
 import android.content.pm.ResolveInfo
 import android.content.pm.PackageManager
-
+import androidx.navigation.Navigation
 
 
 class GameWonFragment : Fragment() {
@@ -45,6 +45,9 @@ class GameWonFragment : Fragment() {
         binding.nextMatchButton.setOnClickListener { view: View ->
             view.findNavController().navigate(
                     GameWonFragmentDirections.actionGameWonFragmentToGameFragment())
+        }
+        binding.bottonProfile.setOnClickListener {  view: View ->
+            Navigation.findNavController(view).navigate(R.id.action_gameWonFragment_to_profileFragment)
         }
         setHasOptionsMenu(true)
         return binding.root

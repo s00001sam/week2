@@ -13,8 +13,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="256" />
-                            <option name="y" value="12" />
+                            <option name="x" value="249" />
+                            <option name="y" value="-157" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -83,6 +83,11 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_gameWonFragment_to_profileFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                           </map>
                         </option>
                       </LayoutPositions>
@@ -93,8 +98,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-228" />
-                            <option name="y" value="-102" />
+                            <option name="x" value="-253" />
+                            <option name="y" value="204" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -124,6 +129,11 @@
                         <option name="myPositions">
                           <map>
                             <entry key="action_titleFragment_to_gameFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_titleFragment_to_profileFragment">
                               <value>
                                 <LayoutPositions />
                               </value>

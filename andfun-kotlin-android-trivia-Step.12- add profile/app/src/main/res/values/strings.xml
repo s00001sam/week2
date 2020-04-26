@@ -39,7 +39,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="me">me</string>
     <string name="namebox">Name</string>
-    <string name="nicknamebox">Nickname</string>
+    <string name="nicknamebox">Nick Name</string>
     <string name="nametext">Sam Lee</string>
     <string name="nicknametext">coffee</string>
     <string name="aboutme_box">About Me</string>
@@ -51,7 +51,6 @@
 \n  And then hope to become an APP engineer.
 \n\n
     </string>
-    <string name="profile">profile</string>
     <string name="play">play</string>
-    <string name="Profile">profile</string>
+    <string name="Profile">Profile</string>
 </resources>

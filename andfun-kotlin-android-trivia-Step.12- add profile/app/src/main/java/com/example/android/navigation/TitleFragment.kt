@@ -38,10 +38,6 @@ class TitleFragment : Fragment() {
         binding.playButton.setOnClickListener { v: View ->
             v.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
         }
-        binding.bottonProfile.setOnClickListener {  view: View ->
-            Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_profileFragment)
-        }
-
 
         setHasOptionsMenu(true)
         return binding.root
