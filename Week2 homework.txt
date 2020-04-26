@@ -1,0 +1,62 @@
+1.透過繼承的手法，可以在父類別的基礎上，建立子類別。並同時具備其父類別所開放的屬性與方法。同時也可以透過覆寫方法，使得子類別有自己的實作方式，繼承可以避免重複的程式碼。
+
+2.用split方法可以拆解字串，如下幾種示範:
+(a)
+ var str = "abcde fghijklmno pqrstsepuvwxyz"
+    var delimiter = "sep"
+ 
+    val parts = str.split(delimiter)
+ 
+    print(parts)
+
+//[abcde fghijklmno pqrst, uvwxyz]
+
+(b)
+ var str = "abcde fgsephijklmno pasepqrstsepuvwxyz"
+    var delimiter1 = "sep"
+    var delimiter2 = "asep"
+ 
+    val parts = str.split(delimiter1, delimiter2)
+ 
+    print(parts)
+
+//[abcde fghijklmno pqrst, uvwxyz]
+
+(c)
+var str = "abcde fgsephijklmno pasepqrstsepuvwxyz"
+ 
+    val parts = str.split(Regex("sep|asep"))
+ 
+    print(parts)
+
+//[abcde fghijklmno pqrst, uvwxyz]
+
+3.fun <T> Pair<T, T>.toList(): List<T>
+EX:
+(a)val mixedList: List<Any> = Pair(1 , "abc").toList()
+    for(item in mixedList){
+        println(item)
+    }
+//1
+abc
+
+(b)val pair = Pair(1,listOf(1,2,3)).toList()
+    for(item in pair){
+        print(item)
+    }
+//1[1, 2, 3]
+
+(c)var (firstName, lastName) = Pair("Suneet", "Agrawal")
+
+
+
+4.
+(a)ArrayList採用的資料結構是Array(陣列)；LinkedList採用的資料結構是雙項鏈結
+(b)ArrayList適用於存放及訪問資料，因採隨機存取方式，直接透過索引，取得值。 
+(c)LinkedList適合處理數據，新增資料與刪除資料，因為只要改動被新增/刪除的那筆資料前面一個節點所指向的位址及可，不需搬動其他資料。
+
+5.
+基本資料型態有8種，Long,Int,Short,Byte,float,double,char,boolean，另外還有String是常見的
+
+6.
+Int的範圍為2147483647 到 -2147483648，故最大值為2147483647，若要使用超過此數字的數據，則須將資料型態轉型為Long，或使用科學記號表示之。
